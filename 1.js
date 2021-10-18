@@ -1,16 +1,11 @@
 function funcOne(arg1){
-
   let newArray = [];
-
-  for( let i = 0; i < arg1.length; i++){
-      
+  for( let i = 0; i < arg1.length; i++){      
     if(arg1[i].charCodeAt(0) >= 97){
         newArray.push(arg1[i]);
     } 
   }
-
   return newArray.join("");
-
 }
 //
 //

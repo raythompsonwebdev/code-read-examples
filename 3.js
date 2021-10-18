@@ -1,7 +1,5 @@
 function funcOne(arr){
-
     return arr.filter((element, index, arrayObj) => arrayObj.indexOf(element) == index );
-
 }
 // 
 //
