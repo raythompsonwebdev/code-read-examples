@@ -12,4 +12,4 @@ function funcOne(arr){
     
 }
 
-console.log(funcOne([2,2,3,6,7,7,7,7,8,9])); //returns Object {2: 2, 3: 1, 6: 1, 7: 4, 8: 1, 9: 1}
+console.log(funcOne([2,2,3,6,7,7,7,7,8,9])); 

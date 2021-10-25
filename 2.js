@@ -7,35 +7,35 @@ function funcOne(arg1, callback){
       }            
     } 
     return result;  
-  }
+}
 
-  function funcTwo(arg1, callback){
+function funcTwo(arg1, callback){
 
-    let result = [];    
-    arg1.forEach(letter => callback(letter) ? result.push(letter) : -1);
-  
-    return result;  
-  }
-  //
-  //
-  //
-  //
-  //
-  //
-  //
-  //
-  //
-  //
-  //
-  //
-  //
-  //
-  //
-  //
-  //
-  //
-  //
-  const arry = [1,2,3,4,5,null];
-  arry[-1] = 6
-  console.log(funcOne(arry, n => n % 2 === 0)) // [ 2, 4, null, 6 ]
-  console.log(funcTwo(arry, n => n % 2 === 0)) // [ 2, 4, null ]
+  let result = [];    
+  arg1.forEach(letter => callback(letter) ? result.push(letter) : -1);
+
+  return result;  
+}
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+const arry = [1,2,3,4,5,null];
+arry[-1] = 6
+console.log(funcOne(arry, n => n % 2 === 0)) 
+console.log(funcTwo(arry, n => n % 2 === 0)) 
