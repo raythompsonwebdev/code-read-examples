@@ -1,14 +1,10 @@
-
-function funcOne(...arg){
-
-    return arg.map(e => e ).sort();
-
+function funcOne(...arg) {
+	return arg.map((e) => e).sort();
 }
 //
 //
 //
 //
-///
 //
 //
 //
@@ -22,6 +18,5 @@ function funcOne(...arg){
 //
 //
 //
-
 
 console.log(funcOne(200, 300, 400, 1000, 800));
